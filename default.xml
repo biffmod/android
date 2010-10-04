@@ -5,7 +5,7 @@
            review="review.source.android.com" />
   <remote name="github" fetch="git://github.com/" review="review.cyanogenmod.com" />
 
-  <remote name="github-bm" fetch="git://github.com/" />
+  <remote name="gh" fetch="git://github.com/" />
 
 
   <default revision="froyo"
@@ -147,9 +147,9 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/CMParts" name="NameLessJedi/android_packages_apps_CMParts" remote="github" revision="master" />
+  <project path="packages/apps/CMParts" name="NameLessJedi/android_packages_apps_CMParts" remote="gh" revision="master" />
   <project path="packages/apps/CMPartsHelper" name="CyanogenMod/android_packages_apps_CMPartsHelper" remote="github" />
-  <project path="packages/apps/BiffMod" name="biffmod/apps_BiffMod" remote="github-bm" />
+  <project path="packages/apps/BiffMod" name="biffmod/apps_BiffMod" remote="gh" revision="master"/>
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" />
@@ -198,6 +198,6 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
-  <project path="vendor/biffmod" name="biffmod/vendor_BiffMod" remote="github-bm" revision="master" />
+  <project path="vendor/biffmod" name="biffmod/vendor_BiffMod" remote="gh" revision="master" />
 
 </manifest>
