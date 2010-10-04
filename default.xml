@@ -195,6 +195,6 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
-  <project path="vendor/biffmod" name="biffmod/vendor_BiffMod" remote="github" />
+  <project path="vendor/biffmod" name="biffmod/vendor_BiffMod" remote="github" revision="master" />
 
 </manifest>
