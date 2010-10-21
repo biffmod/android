@@ -199,5 +199,6 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <project path="vendor/biffmod" name="biffmod/vendor_BiffMod" remote="gh" revision="master" />
+  <project path="vendor/htc" name="koush/proprietary_vendor_htc" remote="gh" revision="froyo" />
 
 </manifest>
