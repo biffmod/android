@@ -169,7 +169,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" remote="github" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="biffmod/android_packages_apps_Settings" remote="gh" revision="master" />
+  <project path="packages/apps/Settings" name="biffmod/android_packages_apps_Settings" remote="gh" revision="froyo" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
